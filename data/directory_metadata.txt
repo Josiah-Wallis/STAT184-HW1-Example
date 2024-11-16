@@ -1,0 +1,9 @@
+Directory contains 4 files:
+	1) bezdekIris.data
+	2) Index
+	3) iris.data
+	4) iris.names
+
+iris.data contains data of interest
+
+iris.names contains metadata on the iris.data dataset
