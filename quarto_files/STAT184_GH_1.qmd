@@ -1,0 +1,39 @@
+---
+title: "STAT184_GH_1"
+format: html
+editor: visual
+---
+
+```{r}
+library("tidyverse")
+```
+
+# Iris Dataset
+
+First, we load the iris dataset from the .data file and examine what the data looks like.
+
+```{r}
+data = read.table("../data/iris.data", header = FALSE, sep = ",", stringsAsFactors = TRUE)
+head(data)
+```
+
+Next, we replace the placeholder column names with the columns provided in the .names file.
+
+```{r}
+col_names = c("sepal length (cm)", "sepal width (cm)", "petal length (cm)", "petal width (cm)", "class")
+
+colnames(data) = col_names
+head(data)
+
+```
+
+Finally, we briefly look at the distribution of sepal lengths across each Iris variant.
+
+```{r}
+ggplot(data, aes(x = `sepal length (cm)`, fill = class)) +
+         geom_density()
+```
+
+# Closing Statement
+
+Thanks for looking at my analysis! :)
