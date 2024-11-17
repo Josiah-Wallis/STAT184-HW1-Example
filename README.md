@@ -6,7 +6,7 @@
 
 # Results
  After running our code, we found the following association between the sepal length of the flowers with their respective flower classification:
- ![image.png]
+ ![](image.png)
 
 # Contact
  Please send any inquiries to [jlw7204@psu.edu](mailto:jlw7204@psu.edu). Thank you for your time!
