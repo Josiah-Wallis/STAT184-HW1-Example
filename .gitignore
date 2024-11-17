@@ -1,6 +1,6 @@
-quarto_files/STAT184_GH_1_files
-quarto_files/.RData
-quarto_files/.Rhistory
+qmd/STAT184_GH_1_files
+qmd/.RData
+qmd/.Rhistory
 data/iris.data
 data/bezdekIris.data
 data/Index
